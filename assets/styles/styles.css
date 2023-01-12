@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0F172A;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px 110px; 
+}
+
+.nav-bar{
+    display: flex;
+    gap: 60px;
+}
+.nav-bar a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F8FAFC;
+    line-height: 28px;
+}
+
+.main{
+    padding: 0 145px 0 145px;
+    height: 2000px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #F8FAFC;
+    margin: 92px 0 82px 0;
+}
+
+h2 span{
+    color: #16B8F3;
+}
+
+.recent-projects{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.project{
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 35px 0 35px 10px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.project-info h3{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #F8FAFC;
+    margin-bottom: 25px;
+}
+
+.project-info p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+}
+
+.img-box img{
+    width: 250px;
+    height: 200px;
+    object-fit: scale-down;
+}
+
+.latest-posts{
+   display: flex;
+   gap: 20px;  
+}
+
+.post{
+    background: #1E293B;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.post-img{
+    width: 100%;
+    height: auto;
+}
+
+.post h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #F8FAFC;
+    margin-top: 22px;
+}
+
+.post span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #9CA3AF;
+    display: block;
+    margin-top: 4px;
+}
+
+.post p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F8FAFC;
+    margin-top: 20px;
+}
+
+.post-info{
+    padding: 14px 14px 71px 14px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px 110px; 
+    border-top: 1px solid #CBD5E1;
+}
+
+.footer p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+}
+
+.footer-social-icons{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
